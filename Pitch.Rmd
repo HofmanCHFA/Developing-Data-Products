@@ -1,0 +1,51 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Caio Hofmann Francisco Alves"
+date: "08/08/2020"
+output: ioslides_presentation
+---
+
+## MPG prediction through linear regression in the mtcars data
+
+MPG prediction for the final project in the developing data products course using shiny apps and RMarkDown.
+
+
+## App Overview
+
+- Miles  per galon can be estimated through several features present in the database.
+- Displacement, number of gears, weight, type of transmission and horse power are some charaterics that we know can influence a cars fuel consuptiom
+- The created app allows to estimate the MPG of a hypotetical car based on these characteristics 
+
+
+## App Reporting
+
+Follow the following Link for the App.
+
+https://hofmannc.shinyapps.io/MPGprediction/
+
+Follow the link below for compiled project files on gitub repo.
+
+https://github.com/HofmanCHFA/Developing-Data-Products
+
+## Data Used
+The data used for this application is the mtcaras data set, which is part of the datasets package.
+mtcars
+From datasets v3.6.2
+by R-core R-core@R-project.org
+
+Motor Trend Car Road Tests
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models).
+
+```{r, echo=TRUE}
+library(datasets)
+head(mtcars, n = 3)
+```
+
+
+
+
+
+
+
+
+© 2020 GitHub, Inc.
